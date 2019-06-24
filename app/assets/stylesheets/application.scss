@@ -21,6 +21,8 @@
  //Use @import in order to process SCSS variables
  // import reusable variables
  @import 'base/_variables';
+ @import 'base/_colors';
+ @import 'resources/*';
 
  // import other stylesheets after variables
 @import 'AdminLTE';
@@ -28,5 +30,4 @@
 @import 'scale';
 @import 'progress_stepper';
 @import 'admin_layout';
-@import 'audits';
 @import 'modal-dialog';
